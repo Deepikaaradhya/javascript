@@ -1,0 +1,203 @@
+<html>
+    <head>
+        <title>EduMeto</title>
+        <script src="homepage.js" type="text/javascript"></script>
+        <link href="homepage.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="css/all.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body onload="myfunction()">
+        <button class="box" onclick="alert('Hello\nTry out our best offers today!')"></button>
+        <div class="container">
+            <div id="search">
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="edunav">
+                                <span class="icon-bar">login</span>
+                                <span class="icon-bar">create an account</span>
+                            </button>    
+                            <div class="collapse navbar-collapse" id="edunav">
+                                <ul class="nav navbar-nav">
+                                    <li>
+                                        <a href="#"><i class="fas fa-home"></i>
+                                         Home
+                                         </a>
+                                    </li>
+                                    <li> 
+                                        <a href="#"><i class="fas fa-sign-in-alt"></i>
+                                        Login
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fas fa-shopping-cart"></i>
+                                          Cart
+                                         </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/Deepikaaradhya"><i class="fas fa-address-card"></i>
+                                         Contact
+                                        </a>
+                                    </li>
+                                </ul>
+                             </div>
+                        </div>
+                    </div>
+                </nav>
+                <div id="modaloverlay">
+                    <div class="modalpopup">
+                        <div class="coupon">
+                            <div class="container1" style="background-color: white;">
+                                <h2 id="heading"> &nbsp TRY IT @Z!</h2>
+                            </div>
+                            <img src="drink.jpg" alt="Drink" style="width:60%;height:30%;">
+                            <div class="container1" style="background-color: white;">
+                                <h3 class="text"><b>20% OFF ON PURCHASE</b></h3>
+                                <small><b>Loaded with lots of</b><em><b>DELICIOUS <em>FLAVOR</em></b></em>and<em><b>TASTE</b></em>!!,,,</small>
+                            </div>
+                            <div class="container1" style="background-color: white;"><br/>
+                                <p id="code"><b>USE PROMO CODE: </b><span class="promo"><strong>B0D44MN</strong></span></p>
+                                <p class="expire"><mark>EXPIRE: <b>SEP 15 2021</mark></b></p>
+                                <p><strong id="text">Dont waste ur time just try it!</strong></p>
+                                <p id="demo"></p>&nbsp
+                            </div>
+                            <button class="buttonStyle" id="button">CLOSE</button>
+                        </div>
+                    </div>        
+                </div>
+               
+                <div id="logo">
+                    <span>Z!</span>
+                </div>
+                <div class="heading">
+                    <h1>
+                        Find The Best Restaurants,Cafes and bars....
+                    </h1>
+                </div>    
+                <div id="dropdown">
+                    <select>
+                        <option>-----SELECT LOCATION----</option>
+                        <option>Davangere</option>
+                        <option>Durga</option>
+                        <option>Chikkmanglore</option>
+                    </select> 
+                    <select id="restaurants">        
+                        <option>-----SELECT RESTAURANTS----</option>
+                        <option>Wow Momos</option>
+                        <option>Pizza Hut</option>
+                        <option>McDonald's</option>
+                    </select>  
+                </div>     
+            </div>
+        </div>    
+       <div class="quicksearch" style="margin-left:10%;">
+           <h1><b>Quick Search</b></h1>
+           <h3>Discover restaurants by type of meal</h3>
+       </div>
+       <div class="bike">
+            <img src="bike.gif" style="height:75px;width:100px"/>
+        </div>
+        <div class="maintilecontainer">
+            <div class="row">  
+                <div class="col-md-5 col-xs-12 tilecontainer">
+                    <div class="col-md-5 col-xs-4 tilecomponent1">
+                        <img src="bf.jpg" alt="breakfast"/>
+                    </div>
+                    <div class="col-md-5 col-xs-5 tilecomponent2">
+                        <div class="componentheading">
+                            Breakfast
+                        </div>
+                        <div class="componentsubheading">
+                            Start your day with best offers
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-md-5 col-xs-12 tilecontainer">
+                    <div class="col-md-5 col-xs-4 tilecomponent1">
+                        <img src="lunch.jpg" alt="lunch"/>
+                    </div>
+                    <div class="col-md-5 col-xs-5 tilecomponent2">
+                        <div class="componentheading">
+                            Lunch
+                        </div>
+                        <div class="componentsubheading">
+                            Have lunch with our best offers
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-md-5 col-xs-12 tilecontainer">
+                    <div class="col-md-5 col-xs-4 tilecomponent1">
+                        <img src="dinner2.jpg" alt="dinner"/>
+                    </div>
+                    <div class="col-md-5 col-xs-5 tilecomponent2">
+                        <div class="componentheading">
+                            Dinner
+                        </div>
+                        <div class="componentsubheading">
+                            End your day with best offers
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-md-5 col-xs-12 tilecontainer">
+                    <div class="col-md-5 col-xs-4 tilecomponent1">
+                        <img src="drink.jpg" alt="drink"/>
+                    </div>
+                    <div class="col-md-5 col-xs-5 tilecomponent2">
+                        <div class="componentheading">
+                            Drink
+                        </div>
+                        <div class="componentsubheading">
+                            Party hard with our best offers
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-md-5 col-xs-12 tilecontainer">
+                    <div class="col-md-5 col-xs-4 tilecomponent1">
+                        <img src="snacks2.jpg" alt="snacks"/>
+                    </div>
+                    <div class="col-md-5 col-xs-5 tilecomponent2">
+                        <div class="componentheading">
+                            Snacks
+                        </div>
+                        <div class="componentsubheading">
+                            Mumching with our best offers 
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-md-5 col-xs-12 tilecontainer">
+                    <div class="col-md-5 col-xs-4 tilecomponent1">
+                        <img src="night.png" alt="night"/>
+                    </div>
+                    <div class="col-md-5 col-xs-5 tilecomponent2">
+                        <div class="componentheading">
+                            Night Life
+                        </div>
+                        <div class="componentsubheading">
+                            Party Hard with best food and drink
+                        </div>
+                    </div>
+                </div> 
+            </div>                
+        </div>
+
+        <script>
+            function myfunction() {
+                alert("Hello....!\n Try out our best offers today")
+            }
+            setInterval(myTimer, 1000);
+
+            function myTimer() {
+                const d = new Date();
+
+                document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+            }
+            window.onload = function() {
+                document.getElementById('button').onclick = function() {
+                document.getElementById('modaloverlay').style.display = 'none'
+                };
+            };
+        </script>
+    </body>
+</html>
